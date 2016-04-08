@@ -5,7 +5,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <ul className='navbar'>
+        <ul>
           <li>Home</li>
           <li>Book Now</li>
           <li>Location</li>

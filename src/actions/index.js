@@ -7,7 +7,7 @@ const API_KEY = '?key=impressionshairdesign';
 
 
 export function fetchAppts() {
-  const request = axios.get(`${ROOT_URL}/book-online${API_KEY`);
+  const request = axios.get(`${ROOT_URL}/book-online${API_KEY}`);
   return {
     type: FETCH_APPTS,
     payload: request
