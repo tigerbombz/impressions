@@ -1,3 +1,30 @@
 .navbar {
   display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.navbar h1{
+  font-family: 'Kaushan Script', cursive;
+  display: inline-block;
+}
+
+.nav-right{
+  display: inline-block;
+  float: right;
+}
+
+.nav-right a{
+  margin-right: 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+.appt-container{
+  border: 1px solid silver;
+  padding: 10px;
+}
+
+.disclaimer {
+  font-size: 12px;
 }

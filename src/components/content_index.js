@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { fetchAppts } from '../actions/index'
+import { Link } from 'react-router';
 
 
-export default () => {
-  return (
-    <div>
-      still on content index
-    </div>
-  );
-};
+class ContentIndex extends Component {
+  componentWillMount() {
+    this.props.fetchAppts();
+  }
+
+
+  render() {
+    return (
+      <div>
+        List of Appointments
+      </div>
+    );
+  }
+}
+
+export default connect(null, { fetchAppts })(ContentIndex);
