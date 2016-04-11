@@ -7,12 +7,24 @@ export default class App extends Component {
     return (
       <div>
         <h1>Impressions Hair Design</h1>
+        <Nav />
         {this.props.children}
       </div>
     );
   }
 }
 
+var Nav = React.createClass({
+ render: function() {
+   return (
+    <ul className="nav nav-pills">
+      <li role="presentation" className="active">Home</li>
+      <li role="presentation">Profile</li>
+      <li role="presentation">Messages</li>
+    </ul>
+  )
+ }
+});
 
 
 

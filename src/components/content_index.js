@@ -13,7 +13,7 @@ class ContentIndex extends Component {
   render() {
     return (
       <div>
-        List of Appointments
+
       </div>
     );
   }
