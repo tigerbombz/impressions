@@ -13,7 +13,7 @@ class ContentIndex extends Component {
   render() {
     return (
       <div>
-
+        <img src={'http://media.animevice.com/uploads/2/21764/364936-yoshi_1.jpg'} alt='yoshi' />
       </div>
     );
   }

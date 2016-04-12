@@ -6,7 +6,6 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>Impressions Hair Design</h1>
         <Nav />
         {this.props.children}
       </div>
@@ -17,10 +16,11 @@ export default class App extends Component {
 var Nav = React.createClass({
  render: function() {
    return (
-    <ul className="nav nav-pills">
-      <li role="presentation" className="active">Home</li>
-      <li role="presentation">Profile</li>
+    <ul className="navbar nav-pills">
+      <h1>Impressions Hair Design</h1>
       <li role="presentation">Messages</li>
+      <li role="presentation">Profile</li>
+      <li role="presentation" className="active">Home</li>
     </ul>
   )
  }
