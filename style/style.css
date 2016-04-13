@@ -39,3 +39,30 @@
 form a{
   margin-left: 5px;
 }
+
+.main img{
+  width: 100%;
+  height: 100px;
+}
+
+.quote{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(221,160,221);
+}
+
+.words{
+  color: white;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.image_container{
+  width: 910px;
+  height: 250px;
+  background-color: silver;
+}

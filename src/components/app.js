@@ -18,8 +18,8 @@ var Nav = React.createClass({
    return (
     <ul className="navbar nav-pills">
       <h1>Impressions Hair Design</h1>
-      <li role="presentation">Messages</li>
-      <li role="presentation">Profile</li>
+      <li role="presentation">Book Now</li>
+      <li role="presentation">Products</li>
       <li role="presentation" className="active">Home</li>
     </ul>
   )
