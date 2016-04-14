@@ -40,13 +40,18 @@ form a{
   margin-left: 5px;
 }
 
+.main_div{
+
+}
+
 .main img{
-  width: 100%;
-  height: 100px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .quote{
-  width: 100%;
+  max-width: 100%;
   height: 100px;
   background-color: rgb(221,160,221);
 }
@@ -63,6 +68,46 @@ form a{
 
 .image_container{
   width: 910px;
-  height: 250px;
-  background-color: silver;
+  height: 280px;
+/*  overflow: hidden;*/
+
+}
+
+.box{
+  border: 2px solid white;
+  padding: 0px;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.box img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  overflow: hidden;
+  margin-left: -20px;
+  margin-top: 2px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  -moz-transition: -moz-transform 0.3s ease;
+  -o-transition: -o-transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.box label{
+  margin-top: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.box img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  -o-transform: scale(1.07);
+  transform: scale(1.07);
+  margin-top: 5px;
+  opacity: 1;
+  overflow: hidden;
 }
