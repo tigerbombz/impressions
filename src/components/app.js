@@ -29,3 +29,4 @@ var Nav = React.createClass({
 
 
 <Link to='/book-online'>Book Online</Link>
+//add more links to website

@@ -38,6 +38,9 @@ class ContentIndex extends Component {
             <img src={'http://providenceplacebridal.com/wp-content/uploads/2015/04/wedding-hair-2.jpg'} style={{width: 250, height: 250}} />
             <label> Bridal</label>
           </div>
+          <footer>
+            Quantum Ventures 2016 | Matthew Nguyen
+          </footer>
         </div>
 
       </div>
