@@ -29,4 +29,5 @@ var Nav = React.createClass({
 
 
 <Link to='/book-online'>Book Online</Link>
-
+link to about us
+link to contact us
