@@ -13,6 +13,7 @@ class ContentIndex extends Component {
   render() {
     return (
       <div>
+        <img src="../images/main.png" />
         <div className='main_div'>
           <img src={'https://www.salonpricelady.com/wp-content/uploads/2016/02/hair-salon-inside.jpg'} alt='main' style={{width: 1110, height: 450}} className='main' />
         </div>
