@@ -27,6 +27,12 @@
   color: gray;
 }
 
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 10px;
+}
+
 .appt-container{
   border: 1px solid silver;
   padding: 10px;
@@ -41,18 +47,19 @@ form a{
 }
 
 .main_div{
-
+  max-width: 100%;
 }
 
 .main img{
   max-width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
 .quote{
   max-width: 100%;
-  height: 100px;
+  max-height: 100%;
+  padding-bottom: 10px;
   background-color: rgb(221,160,221);
 }
 

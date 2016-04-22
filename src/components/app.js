@@ -8,6 +8,7 @@ export default class App extends Component {
       <div>
         <Nav />
         {this.props.children}
+        <Footer />
       </div>
     );
   }
@@ -26,6 +27,16 @@ var Nav = React.createClass({
  }
 });
 
+
+var Footer = React.createClass({
+  render: function() {
+    return (
+      <span className='footer'>
+        Quantum Ventures 2016 | Matthew Nguyen
+      </span>
+    )
+  }
+});
 
 
 <Link to='/book-online'>Book Online</Link>

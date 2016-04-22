@@ -13,9 +13,8 @@ class ContentIndex extends Component {
   render() {
     return (
       <div>
-        <img src="../images/main.png" />
         <div className='main_div'>
-          <img src={'https://www.salonpricelady.com/wp-content/uploads/2016/02/hair-salon-inside.jpg'} alt='main' style={{width: 1110, height: 450}} className='main' />
+          <img src={'https://www.salonpricelady.com/wp-content/uploads/2016/02/hair-salon-inside.jpg'} alt='main' style={{width: 910, height: 450}} className='main' />
         </div>
         <div className='quote'>
           <span className='words'>
@@ -39,9 +38,7 @@ class ContentIndex extends Component {
             <img src={'http://providenceplacebridal.com/wp-content/uploads/2015/04/wedding-hair-2.jpg'} style={{width: 250, height: 250}} />
             <label> Bridal</label>
           </div>
-          <footer>
-            Quantum Ventures 2016 | Matthew Nguyen
-          </footer>
+
         </div>
 
       </div>
