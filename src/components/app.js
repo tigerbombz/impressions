@@ -32,7 +32,7 @@ var Footer = React.createClass({
   render: function() {
     return (
       <span className='footer'>
-        Quantum Ventures 2016 | @Matthew Nguyen
+        Quantum Ventures 2016 | Matthew Nguyen
       </span>
     )
   }
