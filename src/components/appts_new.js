@@ -80,7 +80,6 @@ class ApptsNew extends Component {
           <span className='disclaimer'>
             Please note that the date and time you requested may not be available. We will contact you to confirm your actual appointment details.
           </span>
-          Footer
         </form>
       </div>
     );

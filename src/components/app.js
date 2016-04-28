@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import { Link } from 'react-router';
+import Nav from './layout/Nav';
 
 export default class App extends Component {
   render() {
@@ -14,18 +15,6 @@ export default class App extends Component {
   }
 }
 
-var Nav = React.createClass({
- render: function() {
-   return (
-    <ul className="navbar nav-pills">
-      <h1>Impressions Hair Design</h1>
-      <li role="presentation">Book Now</li>
-      <li role="presentation">Products</li>
-      <li role="presentation" className="active">Home</li>
-    </ul>
-  )
- }
-});
 
 
 var Footer = React.createClass({
@@ -40,7 +29,3 @@ var Footer = React.createClass({
 
 
 <Link to='/book-online'>Book Online</Link>
-// link to about us
-// link to contact us
-// link to profile
-// link to google maps api
