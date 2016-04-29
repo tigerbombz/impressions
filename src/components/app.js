@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import { Link } from 'react-router';
 import Nav from './layout/Nav';
+import Footer from './layout/Footer';
 
 export default class App extends Component {
   render() {
@@ -15,17 +16,3 @@ export default class App extends Component {
   }
 }
 
-
-
-var Footer = React.createClass({
-  render: function() {
-    return (
-      <span className='footer'>
-        Quantum Ventures 2016 | Matthew Nguyen
-      </span>
-    )
-  }
-});
-
-
-<Link to='/book-online'>Book Online</Link>

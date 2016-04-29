@@ -8,10 +8,16 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
-    loaders: [{
-      exclude: /node_modules/,
-      loader: 'babel'
-    }]
+    loaders: [
+      {
+        exclude: /node_modules/,
+        loader: 'babel'
+      },
+      {
+        test: /\.(png|jpg|gif|jpeg|svg)$/,
+       loader: 'url-loader?limit=8192'
+      }
+    ]
   },
   resolve: {
     extensions: ['', '.js', '.jsx']

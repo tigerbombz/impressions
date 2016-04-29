@@ -38,10 +38,10 @@
   color: purple;
 }
 
-.footer {
-  margin-top: 20px;
+
+.row {
   text-align: center;
-  font-size: 10px;
+  margin-top: 10px;
 }
 
 .appt-container{
@@ -91,10 +91,11 @@ form a{
   margin: 0px;
   padding: 0px;
 
+
 }
 
 .box{
-  border: 2px solid white;
+  border: 1px solid white;
   padding: 0px;
   text-align: center;
   overflow: hidden;
@@ -111,6 +112,7 @@ form a{
   -moz-transition: -moz-transform 0.3s ease;
   -o-transition: -o-transform 0.3s ease;
   transition: transform 0.3s ease;
+  margin-right: 30px;
   /*border: 1px solid black;*/
 }
 
@@ -131,4 +133,47 @@ form a{
   margin-top: 5px;
   opacity: 1;
   overflow: hidden;
+}
+
+/*ABOUT US*/
+.about_row{
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+
+
+}
+
+.about_pic{
+  height: 500px;
+}
+
+.about_pic img{
+  max-width: 100%;
+  max-height: 100%;
+  /*margin-left: 40px;*/
+}
+.tina{
+
+}
+
+.tina h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.michelle h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.about_row{
+  margin-top: 30px;
+
+}
+
+.michelle p{
+
 }
