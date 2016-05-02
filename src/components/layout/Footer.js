@@ -6,7 +6,7 @@ export default class Footer extends Component {
     return (
       <footer>
         <div className='row col-lg-12'>
-          <p>Quantum Ventures 2016</p>
+          <i className="fa fa-copyright" aria-hidden="true">Quantum Ventures 2016</i>
         </div>
       </footer>
     );
