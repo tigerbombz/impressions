@@ -1,9 +1,13 @@
+var debug = process.env.NODE_ENV !== "production";
+var webpack = require('webpack');
+var compression = require('compression')
+
 module.exports = {
   entry: [
     './src/index.js'
   ],
   output: {
-    path: __dirname,
+    path: 'public',
     publicPath: '/',
     filename: 'bundle.js'
   },
@@ -19,6 +23,11 @@ module.exports = {
       }
     ]
   },
+  plugins: process.env.NODE_ENV === 'production' ? [
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.optimize.UglifyJsPlugin()
+  ] : [],
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
@@ -27,3 +36,5 @@ module.exports = {
     contentBase: './'
   }
 };
+
+
