@@ -7,7 +7,7 @@ export default class Nav extends Component {
     return (
       <nav className="navbar navbar-inverse" role="navigation">
         <div>
-          <h1>Impressions Hair Design</h1>
+          <h1>Impressions Hair Design!</h1>
           <ul className='nav-right' style={{display: 'inline-block'}}>
             <li><Link to='contact' activeStyle='active'>Contact</Link></li>
             <li><Link to='about-us' activeClassName='active'>About Us</Link></li>
